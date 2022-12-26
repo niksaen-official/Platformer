@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-    public void Kill()
-    {
-        Destroy(gameObject);
-    }
+    public void Kill(){ Destroy(gameObject); }
 }
